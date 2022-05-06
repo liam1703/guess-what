@@ -5,11 +5,11 @@
       v-for="index in 6"
       :key="index"
     >
-      <div class="border-2 border-green-300 p-2 w-16 h-16 mr-2"></div>
-      <div class="border-2 border-green-300 p-2 w-16 h-16 mr-2"></div>
-      <div class="border-2 border-green-300 p-2 w-16 h-16 mr-2"></div>
-      <div class="border-2 border-green-300 p-2 w-16 h-16 mr-2"></div>
-      <div class="border-2 border-green-300 p-2 w-16 h-16 mr-2"></div>
+      <div
+        class="border-2 border-green-300 p-2 w-16 h-16 mr-2"
+        v-for="index in 5"
+        :key="index"
+      ></div>
     </div>
   </div>
 </template>
