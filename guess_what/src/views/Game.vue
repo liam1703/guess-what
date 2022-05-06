@@ -1,7 +1,9 @@
 <template>
   <div class="bg-gray-800 w-screen h-screen">
     <TopNav />
-    <Board />
+    <div class="h-1/2 items-center">
+      <Board />
+    </div>
   </div>
 </template>
 
