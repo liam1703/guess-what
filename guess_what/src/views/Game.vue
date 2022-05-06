@@ -21,12 +21,13 @@ export default {
   },
   data() {
     return {
-      guess: "",
+      LetterGuess: "",
+      numberOfWordsGuessed: 0,
     };
   },
   methods: {
     handleGuess(letter) {
-      this.guess = letter;
+      this.LetterGuess = letter;
     },
   },
 };
