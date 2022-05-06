@@ -32,14 +32,12 @@
         </div>
       </div>
     </div>
-    <h1 class="text-white text-5xl" v-if="guess.length">
-      Your guess is..{{ guess }}
-    </h1>
   </div>
 </template>
 <script>
 export default {
   name: "Keyboard",
+  emits: ["letterGuessed"],
   data() {
     return {
       firstRowKeys: ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
@@ -50,7 +48,7 @@ export default {
   },
   methods: {
     clickOfLetter(letter) {
-      this.guess = letter;
+      this.$emit("letterGuessed", letter);
     },
   },
 };
