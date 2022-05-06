@@ -3,9 +3,7 @@
     <TopNav />
     <div class="h-1/2">
       <Board />
-      Your latest guess was..... {{ guess }}
     </div>
-
     <Keyboard @letterGuessed="handleGuess" />
   </div>
 </template>
