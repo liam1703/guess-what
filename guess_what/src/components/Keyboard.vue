@@ -1,5 +1,16 @@
 <template>
-  <div class="text-white">Hello</div>
+  <div class="flex">
+    <div class="p-4 bg-green-300 mr-2">a</div>
+    <div class="p-4 bg-green-300 mr-2">a</div>
+    <div class="p-4 bg-green-300 mr-2">a</div>
+    <div class="p-4 bg-green-300 mr-2">a</div>
+    <div class="p-4 bg-green-300 mr-2">a</div>
+    <div class="p-4 bg-green-300 mr-2">a</div>
+    <div class="p-4 bg-green-300 mr-2">a</div>
+    <div class="p-4 bg-green-300 mr-2">a</div>
+    <div class="p-4 bg-green-300 mr-2">a</div>
+    <div class="p-4 bg-green-300 mr-2">a</div>
+  </div>
 </template>
 <script>
 export default {
