@@ -7,9 +7,11 @@
     >
       <div
         class="border-2 border-green-300 p-2 w-16 h-16 mr-2"
-        v-for="(letters, index) in currentGuess"
-        :key="index"
-      ></div>
+        v-for="(letters, id) in currentGuess"
+        :key="id"
+      >
+        {{ finalGuesses[index][id] }}
+      </div>
     </div>
   </div>
 </template>
