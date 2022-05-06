@@ -1,5 +1,5 @@
 <template>
-  <div class="flex">
+  <div class="flex mb-2 mt-12">
     <div
       class="p-4 bg-green-300 mr-2"
       v-for="(letter, index) in firstRowKeys"
@@ -8,10 +8,10 @@
       {{ letter }}
     </div>
   </div>
-  <div class="flex">
+  <div class="flex mb-2">
     <div
       class="p-4 bg-green-300 mr-2"
-      v-for="(letter, index) in firstRowKeys"
+      v-for="(letter, index) in secondRowKeys"
       :key="index"
     >
       {{ letter }}
@@ -20,7 +20,7 @@
   <div class="flex">
     <div
       class="p-4 bg-green-300 mr-2"
-      v-for="(letter, index) in firstRowKeys"
+      v-for="(letter, index) in thirdRowKeys"
       :key="index"
     >
       {{ letter }}
