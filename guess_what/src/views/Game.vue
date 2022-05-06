@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: "Login",
+  name: "Game",
 };
 </script>
