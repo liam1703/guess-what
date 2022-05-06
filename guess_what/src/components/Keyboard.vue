@@ -8,6 +8,24 @@
       {{ letter }}
     </div>
   </div>
+  <div class="flex">
+    <div
+      class="p-4 bg-green-300 mr-2"
+      v-for="(letter, index) in firstRowKeys"
+      :key="index"
+    >
+      {{ letter }}
+    </div>
+  </div>
+  <div class="flex">
+    <div
+      class="p-4 bg-green-300 mr-2"
+      v-for="(letter, index) in firstRowKeys"
+      :key="index"
+    >
+      {{ letter }}
+    </div>
+  </div>
 </template>
 <script>
 export default {
