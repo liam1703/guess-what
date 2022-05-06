@@ -1,7 +1,6 @@
 <template>
-  <div>
+  <div class="bg-gray-800 w-screen h-screen">
     <TopNav />
-    <h1 class="text-blue-700">GAME GAME GAME</h1>
   </div>
 </template>
 
