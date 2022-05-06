@@ -1,4 +1,4 @@
-# predict2win
+# guess_what
 
 Front end code for predict 2 win app
 
