@@ -3,7 +3,7 @@
     <div class="">
       <div class="flex mb-2 mt-12">
         <div
-          class="p-4 bg-green-300 mr-2"
+          class="p-4 bg-green-300 mr-2 cursor-pointer"
           v-for="(letter, index) in firstRowKeys"
           :key="index"
         >
@@ -12,7 +12,7 @@
       </div>
       <div class="flex mb-2 ml-8">
         <div
-          class="p-4 bg-green-300 mr-2"
+          class="p-4 bg-green-300 mr-2 cursor-pointer"
           v-for="(letter, index) in secondRowKeys"
           :key="index"
         >
@@ -21,7 +21,7 @@
       </div>
       <div class="flex">
         <div
-          class="p-4 bg-green-300 mr-2"
+          class="p-4 bg-green-300 mr-2 cursor-pointer"
           v-for="(letter, index) in thirdRowKeys"
           :key="index"
         >
