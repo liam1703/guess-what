@@ -4,6 +4,7 @@
     <div class="h-1/2">
       <Board />
     </div>
+
     <Keyboard />
   </div>
 </template>
