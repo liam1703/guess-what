@@ -3,9 +3,10 @@
     <TopNav />
     <div class="h-1/2">
       <Board />
+      Your latest guess was..... {{ guess }}
     </div>
 
-    <Keyboard />
+    <Keyboard @letterGuessed="handleGuess" />
   </div>
 </template>
 
@@ -19,6 +20,16 @@ export default {
     TopNav,
     Board,
     Keyboard,
+  },
+  data() {
+    return {
+      guess: "",
+    };
+  },
+  methods: {
+    handleGuess(letter) {
+      this.guess = letter;
+    },
   },
 };
 </script>
