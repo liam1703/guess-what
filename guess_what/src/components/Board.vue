@@ -10,7 +10,7 @@
         v-for="(letters, id) in currentGuess"
         :key="id"
       >
-        <!-- {{ gameGuess[index][id] }} -->
+        {{ guesses.first[id] }}
       </div>
     </div>
   </div>
@@ -19,7 +19,7 @@
 <script>
 export default {
   name: "Board",
-  props: "guesses",
+  props: ["guesses"],
   data() {
     return {
       finalGuesses: ["", "", "", "", "", ""],

@@ -22,11 +22,11 @@ export default {
   data() {
     return {
       guesses: {
-        1: [],
-        2: [],
-        3: [],
-        4: [],
-        5: [],
+        first: [],
+        second: [],
+        third: [],
+        fourth: [],
+        fifth: [],
       },
       LetterGuess: "",
       numberOfWordsGuessed: 0,
