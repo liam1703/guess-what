@@ -21,8 +21,8 @@ export default {
   name: "Board",
   data() {
     return {
-      finalGuesses: ["", "", "", "", "", ""],
-      currentGuess: [[], [], [], [], []],
+      // finalGuesses: ["", "", "", "", "", ""],
+      // currentGuess: [[], [], [], [], []],
     };
   },
 };
