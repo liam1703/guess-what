@@ -35,9 +35,17 @@
   </div>
 </template>
 <script>
+import playGame from "../composables/gameLogic";
 export default {
   name: "Keyboard",
   emits: ["letterGuessed"],
+  setup() {
+    const { gameGuess, guessLetter } = playGame();
+    return {
+      gameGuess,
+      guessLetter,
+    };
+  },
   data() {
     return {
       firstRowKeys: ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
@@ -48,6 +56,7 @@ export default {
   },
   methods: {
     clickOfLetter(letter) {
+      this.guessLetter(letter);
       this.$emit("letterGuessed", letter);
     },
   },

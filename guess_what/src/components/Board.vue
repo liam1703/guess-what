@@ -10,7 +10,7 @@
         v-for="(letters, id) in currentGuess"
         :key="id"
       >
-        {{ finalGuesses[index][id] }}
+        {{ gameGuess[index][id] }}
       </div>
     </div>
   </div>

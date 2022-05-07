@@ -1,4 +1,4 @@
-import { ref, computed } from "vue";
+import { ref } from "vue";
 
 const gameGuess = ref([[], [], [], [], [], []]);
 const guessWords = ref(0);
