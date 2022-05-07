@@ -34,8 +34,7 @@ export default {
   },
   methods: {
     handleGuess(letter) {
-      const ind = this.numberOfWordsGuessed + 1;
-      this.guesses[ind].push(letter);
+      this.guesses.first.push(letter);
     },
   },
 };
