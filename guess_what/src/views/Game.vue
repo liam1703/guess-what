@@ -27,6 +27,7 @@ export default {
         third: [],
         fourth: [],
         fifth: [],
+        sixth: [],
       },
       LetterGuess: "",
       numberOfWordsGuessed: 0,
