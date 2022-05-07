@@ -1,88 +1,16 @@
 const fiveLetterWord = [
     'Abuse', 'Adult', 'Agent', 'Anger', 'Apple', 'Award', 'Basis', 'Beach', 'Birth',
     'Block', 'Blood', 'Board', 'Brain', 'Bread', 'Break', 'Brown', 'Buyer', 'Cause',
-    'Chain', 'Chair', 'Chest', 'Chief', 'Child', 'China', 'Claim', 'Class'
-
-Clock
-Coach
-Coast
-Court
-Cover
-Cream
-Crime
-Cross
-Crowd
-Crown
-Cycle
-Dance
-Death
-Depth
-Doubt
-Draft
-Drama
-Dream
-Dress
-Drink
-Drive
-Earth
-Enemy
-Entry
-Error
-Event
-Faith
-Fault
-Field
-Fight
-Final
-Floor
-Focus
-Force
-Frame
-Frank
-Front
-Fruit
-Glass
-Grant
-Grass
-Green
-Group
-Guide
-Heart
-Henry
-Horse
-Hotel
-House
-Image
-Index
-Input
-Issue
-Japan
-Jones
-Judge
-Knife
-Laura
-Layer
-Level
-Lewis
-Light
-Limit
-Lunch
-Major
-March
-Match
-Metal
-Model
-Money
-Month
-Motor
-Mouth
-Music
-Night
-Noise
-North
-Novel
-Nurse
-Offer
+    'Chain', 'Chair', 'Chest', 'Chief', 'Child', 'China', 'Claim', 'Class', 'Clock',
+    'Coach', 'Coast', 'Court', 'Cover', 'Cream', 'Crime', 'Cross', 'Crowd', 'Crown',
+    'Cycle', 'Dance', 'Death', 'Depth', 'Doubt', 'Draft', 'Drama', 'Dream', 'Dress',
+    'Drink', 'Drive', 'Earth', 'Enemy', 'Entry', 'Error', 'Event', 'Faith', 'Fault', 
+    'Field', 'Fight', 'Final', 'Floor', 'Focus', 'Force', 'Frame', 'Front', 'Heart',
+    'Fruit', 'Glass', 'Grant', 'Grass', 'Green', 'Group', 'Guide', 'Horse', 'Hotel',
+    'House', 'Image', 'Index', 'Input', 'Issue', 'Judge', 'Knife', 'Layer', 'Level',
+    'Light', 'Limit', 'Lunch', 'Major', 'March', 'Match', 'Metal', 'Model', 'Money',
+    'Month', 'Motor', 'Mouth', 'Music', 'Night', 'Noise', 'North', 'Novel', 'Nurse',
+    'Offer'
 Order
 Other
 Owner
@@ -189,25 +117,17 @@ Whole
 Woman
 World
 Youth
-5 Letter Pronouns
-
 Alcon
 Aught
 Hella
-One’s
 Ought
 Thame
 There
-Thine
-Thine
 Where
 Which
 Whose
-Whoso
 Yours
 Yours
-5 Letter Verbs
-
 Admit
 Adopt
 Agree
@@ -495,7 +415,6 @@ Hence
 Hotly
 Icily
 Infra
-Intl.
 Jildi
 Jolly
 Laxly
@@ -565,8 +484,6 @@ Wetly
 Where
 Wrong
 Wryly
-5 Letter Prepositions
-
 Abaft
 Aboon
 About
@@ -588,8 +505,6 @@ Since
 Spite
 Under
 Until
-5 Letter Interjections
-
 Aargh
 Adieu
 Adios
