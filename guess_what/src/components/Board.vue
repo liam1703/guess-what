@@ -10,31 +10,20 @@
         v-for="(letters, id) in currentGuess"
         :key="id"
       >
-        {{ gameGuess[index][id] }}
+        <!-- {{ gameGuess[index][id] }} -->
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import playGame from "../composables/gameLogic";
 export default {
   name: "Board",
-  setup() {
-    const { gameGuess, guessLetter } = playGame();
-    return {
-      gameGuess,
-      guessLetter,
-    };
-  },
   data() {
     return {
       finalGuesses: ["", "", "", "", "", ""],
       currentGuess: [[], [], [], [], []],
     };
-  },
-  created() {
-    console.log(this.gameGuess);
   },
 };
 </script>

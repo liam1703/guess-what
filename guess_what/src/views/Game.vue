@@ -21,14 +21,19 @@ export default {
   },
   data() {
     return {
+      guesses: {
+        1: [],
+        2: [],
+        3: [],
+        4: [],
+        5: [],
+      },
       LetterGuess: "",
       numberOfWordsGuessed: 0,
     };
   },
   methods: {
-    handleGuess(letter) {
-      this.LetterGuess = letter;
-    },
+    handleGuess(letter) {},
   },
 };
 </script>
