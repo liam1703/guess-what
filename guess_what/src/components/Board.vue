@@ -29,9 +29,12 @@ export default {
   },
   data() {
     return {
-      // finalGuesses: ["", "", "", "", "", ""],
-      // currentGuess: [[], [], [], [], []],
+      finalGuesses: ["", "", "", "", "", ""],
+      currentGuess: [[], [], [], [], []],
     };
+  },
+  created() {
+    console.log(this.gameGuess);
   },
 };
 </script>
