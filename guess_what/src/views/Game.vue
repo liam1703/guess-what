@@ -33,7 +33,10 @@ export default {
     };
   },
   methods: {
-    handleGuess(letter) {},
+    handleGuess(letter) {
+      const ind = numberOfWordsGuessed + 1;
+      this.guesses[ind].push(letter);
+    },
   },
 };
 </script>
