@@ -10,41 +10,16 @@ const fiveLetterWord = [
     'House', 'Image', 'Index', 'Input', 'Issue', 'Judge', 'Knife', 'Layer', 'Level',
     'Light', 'Limit', 'Lunch', 'Major', 'March', 'Match', 'Metal', 'Model', 'Money',
     'Month', 'Motor', 'Mouth', 'Music', 'Night', 'Noise', 'North', 'Novel', 'Nurse',
-    'Offer'
-Order
-Other
-Owner
-Panel
-Paper
-Party
-Peace
-Peter
-Phase
-Phone
-Piece
-Pilot
-Pitch
-Place
-Plane
-Plant
-Plate
-Point
-Pound
-Power
-Press
-Price
-Pride
-Prize
-Proof
-Queen
+    'Offer', 'Order', 'Other', 'Owner', 'Panel', 'Paper', 'Party', 'Peace', 'Peter', 
+    'Phase', 'Phone', 'Piece', 'Pilot', 'Pitch', 'Place', 'Plane', 'Plant', 'Plate',
+    'Point', 'Pound', 'Power', 'Press', 'Price', 'Pride', 'Prize', 'Proof', 'Queen'
 Radio
 Range
 Ratio
 Reply
 Right
 River
-Round
-Route
+
 Rugby
 Scale
 Scene
@@ -117,11 +92,6 @@ Whole
 Woman
 World
 Youth
-Alcon
-Aught
-Hella
-Ought
-Thame
 There
 Where
 Which
@@ -296,7 +266,6 @@ Ready
 Right
 Roman
 Rough
-Round
 Royal
 Rural
 Sharp
@@ -338,10 +307,7 @@ Other
 Since
 Slash
 Until
-Where
 While
-5 Letter Adverbs
-
 Aback
 Abaft
 Aboon
@@ -360,7 +326,6 @@ Agone
 Ahead
 Ahull
 Alife
-Alike
 Aline
 Aloft
 Alone
@@ -417,8 +382,6 @@ Icily
 Infra
 Jildi
 Jolly
-Laxly
-Lento
 Light
 Lowly
 Madly
@@ -444,21 +407,15 @@ Rapid
 Redly
 Right
 Rough
-Round
 Sadly
-Secus
-Selly
 Sharp
 Sheer
-Shily
 Short
 Shyly
 Silly
 Since
 Sleek
 Slyly
-Small
-So-So
 Sound
 Spang
 Srsly
@@ -466,22 +423,14 @@ Stark
 Still
 Stone
 Stour
-Super
 Tally
-Tanto
 There
 Thick
 Tight
 Today
-Tomoz
 Truly
 Twice
 Under
-Utter
-Verry
-Wanly
-Wetly
-Where
 Wrong
 Wryly
 Abaft
@@ -534,12 +483,8 @@ Hella
 Hello
 Howay
 Howdy
-Hullo
-Huzza
 Jesus
-Kapow
 Loose
-Lordy
 Marry
 Mercy
 Night
@@ -547,28 +492,8 @@ Plonk
 Psych
 Quite
 Salve
-Skoal
 Sniff
-Sooey
-There
-Thiam
-Thwap
-Tough
-Twirp
-Viola
-Vivat
-Wacko
-Wahey
-Whist
-Wilma
-Wirra
-Woops
-Wowie
-Yecch
-Yeeha
-Yeesh
-Yowch
-Zowie
+
 
 
 ];
