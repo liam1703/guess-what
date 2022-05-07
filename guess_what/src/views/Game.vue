@@ -2,7 +2,7 @@
   <div class="bg-gray-800 w-screen h-screen">
     <TopNav />
     <div class="h-1/2">
-      <Board />
+      <Board :guesses="guesses" />
     </div>
     <Keyboard @letterGuessed="handleGuess" />
   </div>
@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     handleGuess(letter) {
-      const ind = numberOfWordsGuessed + 1;
+      const ind = this.numberOfWordsGuessed + 1;
       this.guesses[ind].push(letter);
     },
   },

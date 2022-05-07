@@ -19,6 +19,7 @@
 <script>
 export default {
   name: "Board",
+  props: "guesses",
   data() {
     return {
       finalGuesses: ["", "", "", "", "", ""],
