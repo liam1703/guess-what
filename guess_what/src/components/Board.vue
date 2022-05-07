@@ -17,8 +17,16 @@
 </template>
 
 <script>
+import playGame from "../composables/gameLogic";
 export default {
   name: "Board",
+  setup() {
+    const { gameGuess, guessLetter } = playGame();
+    return {
+      gameGuess,
+      guessLetter,
+    };
+  },
   data() {
     return {
       // finalGuesses: ["", "", "", "", "", ""],
