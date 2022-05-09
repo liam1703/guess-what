@@ -25,37 +25,11 @@ const fiveLetterWord = [
     'Arise', 'Avoid', 'Begin', 'Blame', 'Break', 'Bring', 'Build', 'Burst', 'Carry',
     'Catch', 'Cause', 'Check', 'Claim', 'Clean', 'Climb', 'Climb', 'Count', 'Cover',
     'Cross', 'Doubt', 'Drink', 'Drive', 'Enjoy', 'Enter', 'Exist', 'Fight', 'Focus',
-    'Force', 'Guess', 'Issue', 'Judge', 'Laugh', 'Leave', 'Limit', 'Match', 'Occur'
+    'Force', 'Guess', 'Issue', 'Judge', 'Laugh', 'Leave', 'Limit', 'Match', 'Occur',
+    'Prove', 'Raise', 'Reach', 'Refer', 'Relax', 'Serve', 'Shall', 'Shoot', 'Solve', 
+    'Speak', 'Spend', 'Split', 'Stand', 'Start', 'Stick', 'Teach', 'Think', 'Thank',
+    'Throw', 'Treat'
 
-Press
-Prove
-Raise
-Reach
-Refer
-Relax
-Serve
-Shall
-Share
-Shift
-Shoot
-Sleep
-Solve
-Sound
-Speak
-Spend
-Split
-Stand
-Start
-State
-Stick
-Study
-Teach
-Thank
-Think
-Throw
-Touch
-Train
-Treat
 Trust
 Visit
 Voice
