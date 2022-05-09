@@ -35,7 +35,14 @@ export default {
   },
   methods: {
     handleGuess(letter) {
-      this.guesses.first.push(letter);
+      if (letter == "DEL") {
+        this.guesses.first.pop();
+      } else {
+        if (this.guesses.first.length > 4) {
+          return;
+        }
+        this.guesses.first.push(letter);
+      }
     },
   },
 };

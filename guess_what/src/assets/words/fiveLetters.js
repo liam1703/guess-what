@@ -23,16 +23,9 @@ const fiveLetterWord = [
     'Voice', 'Water', 'White', 'Whole', 'World', 'Youth', 'There', 'Where', 'Which', 
     'Whose', 'Yours', 'Admit', 'Adopt', 'Agree', 'Allow', 'Alter', 'Apply', 'Argue',
     'Arise', 'Avoid', 'Begin', 'Blame', 'Break', 'Bring', 'Build', 'Burst', 'Carry',
-    'Catch', 'Cause', 'Check', 'Claim', 'Clean'
+    'Catch', 'Cause', 'Check', 'Claim', 'Clean', 'Climb', 'Climb', 'Count', 'Cover'
 
 
-
-
-Clear
-Climb
-Close
-Count
-Cover
 Cross
 Dance
 Doubt
@@ -209,20 +202,15 @@ Until
 While
 About
 Above
-Adown
-Afoot
-Afore
 Afoul
 After
 Again
-Agone
 Ahead
 Alife
 Aline
 Aloft
 Alone
 Along
-Aloof
 Aloud
 Amply
 Apace
@@ -261,7 +249,6 @@ Nobly
 Oddly
 Often
 Other
-Ought
 Party
 Piano
 Plain
@@ -289,15 +276,12 @@ Truly
 Twice
 Under
 Wrong
-Abaft
-Aboon
 About
 Above
 Adown
 Afore
 After
 Along
-
 Among
 Below
 Cross
@@ -321,7 +305,4 @@ Psych
 Quite
 Salve
 Sniff
-
-
-
 ];
