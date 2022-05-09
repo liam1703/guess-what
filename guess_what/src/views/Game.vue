@@ -30,6 +30,14 @@ export default {
         fifth: [],
         sixth: [],
       },
+      results: {
+        first: [],
+        second: [],
+        third: [],
+        fourth: [],
+        fifth: [],
+        sixth: [],
+      },
       LetterGuess: "",
       numberOfWordsGuessed: 0,
       currentAnswer: "",
@@ -50,6 +58,9 @@ export default {
           if (letter == "ENTER") {
             console.log("handle guess");
             console.log(this.compareGuess(this.guesses[this.getGuessKey]));
+            this.results[this.getGuessKey] = this.compareGuess(
+              this.guesses[this.getGuessKey]
+            );
             this.numberOfWordsGuessed++;
           } else {
             return;
