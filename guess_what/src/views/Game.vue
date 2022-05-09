@@ -37,6 +37,7 @@ export default {
   },
   created() {
     this.currentAnswer = getRandomWord();
+    console.log(this.currentAnswer);
   },
 
   methods: {
