@@ -35,10 +35,19 @@ export default {
   },
   methods: {
     handleGuess(letter) {
+      // this conditional could deffo be simpler
       if (letter == "DEL") {
         this.guesses[this.getGuessKey].pop();
       } else {
         if (this.guesses[this.getGuessKey].length > 4) {
+          if (letter == "ENTER") {
+            console.log("handle guess");
+            this.numberOfWordsGuessed++;
+          } else {
+            return;
+          }
+        }
+        if (letter == "ENTER") {
           return;
         }
         this.guesses[this.getGuessKey].push(letter);
