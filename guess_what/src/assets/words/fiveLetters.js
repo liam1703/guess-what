@@ -28,84 +28,25 @@ const fiveLetterWord = [
     'Force', 'Guess', 'Issue', 'Judge', 'Laugh', 'Leave', 'Limit', 'Match', 'Occur',
     'Prove', 'Raise', 'Reach', 'Refer', 'Relax', 'Serve', 'Shall', 'Shoot', 'Solve', 
     'Speak', 'Spend', 'Split', 'Stand', 'Start', 'Stick', 'Teach', 'Think', 'Thank',
-    'Throw', 'Treat'
+    'Throw', 'Treat', 'Waste', 'Watch', 'Worry', 'Would', 'Write', 'Acute', 'Alive', 
+    'Alone', 'Angry', 'Aware', 'Basic', 'Blind', 'Brave', 'Brief', 'Broad', 'Civil',
+    'Clear', 'Close', 'Crazy', 'Empty', 'Equal', 'Exact', 'Faint', 'Fifth', 'Giant',
+    'Grand', 'Green', 'Gross', 'Harsh', 'Human', 'Ideal', 'Inner', 'Joint', 'Large', 
+    'Legal', 'Local', 'Loose', 'Lucky', 'Magic', 'Minor', 'Moral', 'Naked', 'Nasty', 
+    'Naval', 'Outer', 'Prime', 'Proud'
 
-Trust
-Visit
-Voice
-Waste
-Watch
-Worry
-Would
-Write
-Above
-Acute
-Alive
-Alone
-Angry
-Aware
-Awful
-Basic
-Black
-Blind
-Brave
-Brief
-Broad
-Brown
-Cheap
-Chief
-Civil
-Clean
-Clear
-Close
-Crazy
-Daily
-Dirty
-Early
-Empty
-Equal
-Exact
-Extra
-Faint
-False
-Fifth
-Final
-First
-Fresh
-Front
-Funny
-Giant
-Grand
-Great
-Green
-Gross
-Happy
-Harsh
-Heavy
-Human
-Ideal
-Inner
-Joint
-Large
-Legal
-Level
-Light
-Local
-Loose
-Lucky
-Magic
-Major
-Minor
-Moral
-Naked
-Nasty
-Naval
-Other
-Outer
-Plain
-Prime
-Prior
-Proud
+
+
+
+
+
+
+
+
+
+
+
+
 Quick
 Quiet
 Rapid
@@ -228,7 +169,6 @@ Twice
 Under
 Wrong
 About
-Above
 Adown
 Afore
 After
