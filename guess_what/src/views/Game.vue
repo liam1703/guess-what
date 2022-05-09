@@ -1,9 +1,7 @@
 <template>
   <div class="bg-gray-800 w-screen h-screen">
     <TopNav />
-    <div class="h-1/2">
-      <Board :guesses="guesses" />
-    </div>
+    <div class="h-1/2"><Board :guesses="guesses" :results="results" /></div>
     <Keyboard @letterGuessed="handleGuess" />
   </div>
 </template>
