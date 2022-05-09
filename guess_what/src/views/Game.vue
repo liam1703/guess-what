@@ -55,11 +55,10 @@ export default {
       } else {
         if (this.guesses[this.getGuessKey].length > 4) {
           if (letter == "ENTER") {
-            console.log("handle guess");
-            console.log(this.compareGuess(this.guesses[this.getGuessKey]));
             this.results[this.getGuessKey] = this.compareGuess(
               this.guesses[this.getGuessKey]
             );
+            this.greyOutLetters();
             this.numberOfWordsGuessed++;
           } else {
             return;
@@ -72,9 +71,6 @@ export default {
       }
     },
     compareGuess(enteredGuess) {
-      for (const char in enteredGuess) {
-        this.guessedLetters.push(char);
-      }
       // 0 = not matches 1 = match wrong place 2 = match correct place
       const resultArray = [];
       for (let i = 0; i < enteredGuess.length; i++) {
@@ -87,6 +83,12 @@ export default {
         }
       }
       return resultArray;
+    },
+    greyOutLetters() {
+      for (let i = 0; i < this.guesses[this.getGuessKey].length; i++) {
+        console.log("HELLLOOO", this.guesses[this.getGuessKey]);
+        this.guessedLetters.push(this.guesses[this.getGuessKey][i]);
+      }
     },
   },
   computed: {

@@ -3,19 +3,21 @@
     <div class="">
       <div class="flex mb-2 mt-12">
         <div
-          class="p-4 bg-gray-200 mr-2 cursor-pointer"
+          class="p-4 mr-2 cursor-pointer"
           v-for="(letter, index) in firstRowKeys"
           :key="index"
           @click="clickOfLetter(letter)"
+          :class="keyClass(letter)"
         >
           {{ letter }}
         </div>
       </div>
       <div class="flex mb-2 ml-8">
         <div
-          class="p-4 bg-gray-200 mr-2 cursor-pointer"
+          class="p-4 s mr-2 cursor-pointer"
           v-for="(letter, index) in secondRowKeys"
           :key="index"
+          :class="keyClass(letter)"
           @click="clickOfLetter(letter)"
         >
           {{ letter }}
@@ -23,9 +25,10 @@
       </div>
       <div class="flex">
         <div
-          class="p-4 bg-gray-200 mr-2 cursor-pointer"
+          class="p-4 mr-2 cursor-pointer"
           v-for="(letter, index) in thirdRowKeys"
           :key="index"
+          :class="keyClass(letter)"
           @click="clickOfLetter(letter)"
         >
           {{ letter }}
@@ -38,6 +41,7 @@
 export default {
   name: "Keyboard",
   emits: ["letterGuessed"],
+  props: ["guessedLetters"],
   data() {
     return {
       firstRowKeys: ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
@@ -49,6 +53,15 @@ export default {
   methods: {
     clickOfLetter(letter) {
       this.$emit("letterGuessed", letter);
+    },
+    keyClass(key) {
+      console.log(key);
+      console.log(this.guessedLetters);
+      if (this.guessedLetters.includes(key)) {
+        return `bg-gray-600`;
+      } else {
+        return `bg-gray-200`;
+      }
     },
   },
 };
