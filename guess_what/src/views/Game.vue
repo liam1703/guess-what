@@ -36,12 +36,32 @@ export default {
   methods: {
     handleGuess(letter) {
       if (letter == "DEL") {
-        this.guesses.first.pop();
+        this.guesses[this.getGuessKey].pop();
       } else {
-        if (this.guesses.first.length > 4) {
+        if (this.guesses[this.getGuessKey].length > 4) {
           return;
         }
-        this.guesses.first.push(letter);
+        this.guesses[this.getGuessKey].push(letter);
+      }
+    },
+  },
+  computed: {
+    getGuessKey() {
+      switch (this.numberOfWordsGuessed) {
+        case 0:
+          return "first";
+        case 1:
+          return "second";
+        case 2:
+          return "third";
+        case 3:
+          return "fourth";
+        case 4:
+          return "fifth";
+        case 5:
+          return "sixth";
+        default:
+          return "err";
       }
     },
   },
