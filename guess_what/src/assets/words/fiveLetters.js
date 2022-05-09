@@ -16,45 +16,12 @@ const fiveLetterWord = [
     'Radio', 'Range', 'Ratio', 'Reply', 'Right', 'River', 'Rugby', 'Scale', 'Scene',
     'Scope', 'Score', 'Sense', 'Shape', 'Share', 'Sheep', 'Sheet', 'Shift', 'Shirt',
     'Shock', 'Sight', 'Skill', 'Sleep', 'Smile', 'Smoke', 'Sound', 'South', 'Space',
-    'Speed', 'Spite', 'Sport', 'Squad', 'Staff', 'Stage', 'State', 'Steam'
+    'Speed', 'Spite', 'Sport', 'Squad', 'Staff', 'Stage', 'State', 'Steam', 'Steel', 
+    'Stock', 'Stone', 'Store', 'Study', 'Stuff', 'Style', 'Sugar', 'Table', 'Taste',
+    'Thing', 'Title', 'Total', 'Touch', 'Tower', 'Track', 'Trade', 'Train', 'Trend',
+    'Trial', 'Trust', 'Truth', 'Truth', 'Union', 'Unity', 'Value', 'Video', 'Visit',
+    'Voice', 'Water'
 
-
-
-Steel
-Stock
-Stone
-Store
-Study
-Stuff
-Style
-Sugar
-Table
-Taste
-Terry
-Theme
-Thing
-Title
-Total
-Touch
-Tower
-Track
-Trade
-Train
-Trend
-Trial
-Trust
-Truth
-Uncle
-Union
-Unity
-Value
-Video
-Visit
-Voice
-Waste
-Watch
-Water
-While
 White
 Whole
 Woman
