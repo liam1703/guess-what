@@ -411,9 +411,7 @@ const fiveLetterWord = [
   "Quite",
 ];
 
-function getRandomWord() {
+export default function getRandomWord() {
   const randomIndex = Math.round(Math.random() * fiveLetterWord.length);
   return fiveLetterWord[randomIndex];
 }
-
-console.log(getRandomWord());
