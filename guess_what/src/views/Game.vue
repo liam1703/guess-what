@@ -36,7 +36,7 @@ export default {
     };
   },
   created() {
-    this.currentAnswer = getRandomWord();
+    this.currentAnswer = getRandomWord().toLocaleUpperCase();
     console.log(this.currentAnswer);
   },
 
@@ -49,6 +49,7 @@ export default {
         if (this.guesses[this.getGuessKey].length > 4) {
           if (letter == "ENTER") {
             console.log("handle guess");
+            console.log(this.compareGuess(this.guesses[this.getGuessKey]));
             this.numberOfWordsGuessed++;
           } else {
             return;
@@ -59,6 +60,20 @@ export default {
         }
         this.guesses[this.getGuessKey].push(letter);
       }
+    },
+    compareGuess(enteredGuess) {
+      // 0 = not matches 1 = match wrong place 2 = match correct place
+      const resultArray = [];
+      for (let i = 0; i < enteredGuess.length; i++) {
+        if (enteredGuess[i] == this.currentAnswer[i]) {
+          resultArray.push(2);
+        } else if (this.currentAnswer.includes(enteredGuess[i])) {
+          resultArray.push(1);
+        } else {
+          resultArray.push(0);
+        }
+      }
+      return resultArray;
     },
   },
   computed: {
