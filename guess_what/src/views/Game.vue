@@ -2,6 +2,7 @@
   <div class="bg-gray-800 w-screen h-screen">
     <TopNav />
     <div class="h-1/2">
+      {{ currentAnswer }}
       <Board :guesses="guesses" />
     </div>
     <Keyboard @letterGuessed="handleGuess" />
@@ -12,6 +13,7 @@
 import TopNav from "../components/TopNav.vue";
 import Board from "../components/Board.vue";
 import Keyboard from "../components/Keyboard.vue";
+import getRandomWord from "../assets/words/fiveLetters";
 export default {
   name: "Game",
   components: {
@@ -31,8 +33,13 @@ export default {
       },
       LetterGuess: "",
       numberOfWordsGuessed: 0,
+      currentAnswer: "",
     };
   },
+  created() {
+    this.currentAnswer = getRandomWord();
+  },
+
   methods: {
     handleGuess(letter) {
       // this conditional could deffo be simpler
