@@ -2,7 +2,7 @@
   <div class="bg-gray-800 w-screen h-screen">
     <TopNav />
     <div class="h-1/2"><Board :guesses="guesses" :results="results" /></div>
-    <Keyboard @letterGuessed="handleGuess" />
+    <Keyboard @letterGuessed="handleGuess" :guessedLetters="guessedLetters" />
   </div>
 </template>
 
@@ -39,6 +39,7 @@ export default {
       LetterGuess: "",
       numberOfWordsGuessed: 0,
       currentAnswer: "",
+      guessedLetters: [],
     };
   },
   created() {
@@ -71,6 +72,9 @@ export default {
       }
     },
     compareGuess(enteredGuess) {
+      for (const char in enteredGuess) {
+        this.guessedLetters.push(char);
+      }
       // 0 = not matches 1 = match wrong place 2 = match correct place
       const resultArray = [];
       for (let i = 0; i < enteredGuess.length; i++) {
