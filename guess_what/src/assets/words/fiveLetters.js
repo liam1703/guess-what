@@ -20,40 +20,14 @@ const fiveLetterWord = [
     'Stock', 'Stone', 'Store', 'Study', 'Stuff', 'Style', 'Sugar', 'Table', 'Taste',
     'Thing', 'Title', 'Total', 'Touch', 'Tower', 'Track', 'Trade', 'Train', 'Trend',
     'Trial', 'Trust', 'Truth', 'Truth', 'Union', 'Unity', 'Value', 'Video', 'Visit',
-    'Voice', 'Water'
+    'Voice', 'Water', 'White', 'Whole', 'World', 'Youth', 'There', 'Where', 'Which', 
+    'Whose', 'Yours', 'Admit', 'Adopt', 'Agree', 'Allow', 'Alter', 'Apply', 'Argue',
+    'Arise', 'Avoid', 'Begin', 'Blame', 'Break', 'Bring', 'Build', 'Burst', 'Carry',
+    'Catch', 'Cause', 'Check', 'Claim', 'Clean'
 
-White
-Whole
-Woman
-World
-Youth
-There
-Where
-Which
-Whose
-Yours
-Yours
-Admit
-Adopt
-Agree
-Allow
-Alter
-Apply
-Argue
-Arise
-Avoid
-Begin
-Blame
-Break
-Bring
-Build
-Burst
-Carry
-Catch
-Cause
-Check
-Claim
-Clean
+
+
+
 Clear
 Climb
 Close
