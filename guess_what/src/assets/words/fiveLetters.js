@@ -23,33 +23,10 @@ const fiveLetterWord = [
     'Voice', 'Water', 'White', 'Whole', 'World', 'Youth', 'There', 'Where', 'Which', 
     'Whose', 'Yours', 'Admit', 'Adopt', 'Agree', 'Allow', 'Alter', 'Apply', 'Argue',
     'Arise', 'Avoid', 'Begin', 'Blame', 'Break', 'Bring', 'Build', 'Burst', 'Carry',
-    'Catch', 'Cause', 'Check', 'Claim', 'Clean', 'Climb', 'Climb', 'Count', 'Cover'
+    'Catch', 'Cause', 'Check', 'Claim', 'Clean', 'Climb', 'Climb', 'Count', 'Cover',
+    'Cross', 'Doubt', 'Drink', 'Drive', 'Enjoy', 'Enter', 'Exist', 'Fight', 'Focus',
+    'Force', 'Guess', 'Issue', 'Judge', 'Laugh', 'Leave', 'Limit', 'Match', 'Occur'
 
-
-Cross
-Dance
-Doubt
-Drink
-Drive
-Enjoy
-Enter
-Exist
-Fight
-Focus
-Force
-Guess
-Issue
-Judge
-Laugh
-Leave
-Limit
-Match
-Occur
-Offer
-Order
-Phone
-Place
-Point
 Press
 Prove
 Raise
@@ -297,12 +274,8 @@ Bring
 Fudge
 Havoc
 Hello
-Loose
 Marry
 Mercy
 Night
-Psych
 Quite
-Salve
-Sniff
 ];
