@@ -48,11 +48,41 @@ export default {
       secondRowKeys: ["A", "S", "D", "F", "G", "H", "J", "K", "L"],
       thirdRowKeys: ["ENTER", "Z", "X", "C", "V", "B", "N", "M", "DEL"],
       guess: "",
+      validLetterKeyStroke: [
+        "Q",
+        "W",
+        "E",
+        "R",
+        "T",
+        "Y",
+        "U",
+        "I",
+        "O",
+        "P",
+        "A",
+        "S",
+        "D",
+        "F",
+        "G",
+        "H",
+        "J",
+        "K",
+        "L",
+        "Z",
+        "X",
+        "C",
+        "V",
+        "B",
+        "N",
+        "M",
+      ],
     };
   },
   created() {
     window.addEventListener("keydown", (e) => {
-      console.log(e);
+      if (this.validLetterKeyStroke.includes(e.key.toUpperCase())) {
+        this.$emit("letterGuessed", e.key.toUpperCase());
+      }
     });
   },
   methods: {
