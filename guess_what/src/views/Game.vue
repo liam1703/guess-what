@@ -1,7 +1,10 @@
 <template>
   <div class="bg-gray-800 w-screen h-screen">
     <TopNav />
-    <div class="h-1/2"><Board :guesses="guesses" :results="results" /></div>
+    <CompletedModal v-show="gameOver" />
+    <div class="h-1/2">
+      <Board :guesses="guesses" :results="results" />
+    </div>
     <Keyboard @letterGuessed="handleGuess" :guessedLetters="guessedLetters" />
   </div>
 </template>
@@ -11,12 +14,14 @@ import TopNav from "../components/TopNav.vue";
 import Board from "../components/Board.vue";
 import Keyboard from "../components/Keyboard.vue";
 import getRandomWord from "../assets/words/fiveLetters";
+import CompletedModal from "../components/CompletedModal.vue";
 export default {
   name: "Game",
   components: {
     TopNav,
     Board,
     Keyboard,
+    CompletedModal,
   },
   data() {
     return {
@@ -40,6 +45,7 @@ export default {
       numberOfWordsGuessed: 0,
       currentAnswer: "",
       guessedLetters: [],
+      gameOver: false,
     };
   },
   created() {
