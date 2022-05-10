@@ -86,7 +86,6 @@ export default {
     },
     greyOutLetters() {
       for (let i = 0; i < this.guesses[this.getGuessKey].length; i++) {
-        console.log("HELLLOOO", this.guesses[this.getGuessKey]);
         this.guessedLetters.push(this.guesses[this.getGuessKey][i]);
       }
     },

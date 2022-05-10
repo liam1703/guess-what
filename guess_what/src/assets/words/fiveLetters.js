@@ -409,6 +409,8 @@ const fiveLetterWord = [
   "Marry",
   "Mercy",
   "Quite",
+  "audio",
+  "tweet",
 ];
 
 export default function getRandomWord() {

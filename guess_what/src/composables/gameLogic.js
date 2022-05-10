@@ -8,7 +8,6 @@ export default function playGame() {
   function guessLetter(letter) {
     currentGuess.push(letter);
     gameGuess.value = currentGuess;
-    console.log(gameGuess);
   }
   return {
     gameGuess,

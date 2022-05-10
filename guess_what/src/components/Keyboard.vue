@@ -50,13 +50,16 @@ export default {
       guess: "",
     };
   },
+  created() {
+    window.addEventListener("keydown", (e) => {
+      console.log(e);
+    });
+  },
   methods: {
     clickOfLetter(letter) {
       this.$emit("letterGuessed", letter);
     },
     keyClass(key) {
-      console.log(key);
-      console.log(this.guessedLetters);
       if (this.guessedLetters.includes(key)) {
         return `bg-gray-600`;
       } else {
