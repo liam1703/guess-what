@@ -80,7 +80,6 @@ export default {
   },
   created() {
     window.addEventListener("keydown", (e) => {
-      console.log(e.key);
       if (this.validLetterKeyStroke.includes(e.key.toUpperCase())) {
         this.$emit("letterGuessed", e.key.toUpperCase());
       }
