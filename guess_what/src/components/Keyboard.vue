@@ -80,8 +80,16 @@ export default {
   },
   created() {
     window.addEventListener("keydown", (e) => {
+      console.log(e.key);
       if (this.validLetterKeyStroke.includes(e.key.toUpperCase())) {
         this.$emit("letterGuessed", e.key.toUpperCase());
+      }
+      if (e.key.toUpperCase() == "BACKSPACE") {
+        this.$emit("letterGuessed", "DEL");
+      }
+
+      if (e.key.toUpperCase() == "ENTER") {
+        this.$emit("letterGuessed", "ENTER");
       }
     });
   },
