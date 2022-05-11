@@ -46,6 +46,7 @@ export default {
       currentAnswer: "",
       guessedLetters: [],
       gameOver: false,
+      gameWon: false,
     };
   },
   created() {
@@ -93,6 +94,18 @@ export default {
     greyOutLetters() {
       for (let i = 0; i < this.guesses[this.getGuessKey].length; i++) {
         this.guessedLetters.push(this.guesses[this.getGuessKey][i]);
+      }
+    },
+    isCorrect(resultArr) {
+      let correct = true;
+      for (let i = 0; i < resultArr.length; i++) {
+        if (resultArr[i] != 2) {
+          correct = false;
+        }
+      }
+      if (correct) {
+        this.gameWon = true;
+        this.gameOver = true;
       }
     },
   },

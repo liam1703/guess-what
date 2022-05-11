@@ -7,6 +7,7 @@ const fiveLetterWord = [
   "Award",
   "Basis",
   "Beach",
+  "later",
   "Birth",
   "Block",
   "Blood",
