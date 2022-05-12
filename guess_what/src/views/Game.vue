@@ -65,8 +65,8 @@ export default {
             this.results[this.getGuessKey] = this.compareGuess(
               this.guesses[this.getGuessKey]
             );
-            this.greyOutLetters(this.results[this.getGuessKey]);
-            // this.isCorrect();
+            this.greyOutLetters();
+            this.isCorrect(this.results[this.getGuessKey]);
             this.numberOfWordsGuessed++;
             if (this.numberOfWordsGuessed > 5) {
               this.gameOver = false;
