@@ -65,8 +65,12 @@ export default {
             this.results[this.getGuessKey] = this.compareGuess(
               this.guesses[this.getGuessKey]
             );
-            this.greyOutLetters();
+            this.greyOutLetters(this.results[this.getGuessKey]);
+            // this.isCorrect();
             this.numberOfWordsGuessed++;
+            if (this.numberOfWordsGuessed > 5) {
+              this.gameOver = false;
+            }
           } else {
             return;
           }
