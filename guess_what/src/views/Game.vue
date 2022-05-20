@@ -69,7 +69,7 @@ export default {
             this.isCorrect(this.results[this.getGuessKey]);
             this.numberOfWordsGuessed++;
             if (this.numberOfWordsGuessed > 5) {
-              this.gameOver = false;
+              this.gameOver = true;
             }
           } else {
             return;
