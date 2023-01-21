@@ -5,7 +5,12 @@
     <div class="w-full h-full flex justify-center text-center">
       <div class="w-1/3 h-3/5 bg-gray-600 my-auto inset-0">
         <h1 class="text-white text-2xl">HELLO</h1>
-        <div class="border-white border-2 w-max h-max">PLAY AGAIN</div>
+        <div
+          class="border-white border-2 w-max h-max p-2 rounded-xl mx-auto cursor-pointer"
+          @click="restartGame"
+        >
+          PLAY AGAIN
+        </div>
       </div>
     </div>
   </div>
@@ -14,5 +19,10 @@
 <script>
   export default {
     name: "CompletedModal",
+    methods: {
+      restartGame() {
+        console.log("start new game");
+      },
+    },
   };
 </script>
