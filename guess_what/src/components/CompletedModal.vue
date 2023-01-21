@@ -21,7 +21,7 @@
     name: "CompletedModal",
     methods: {
       restartGame() {
-        console.log("start new game");
+        window.location.reload();
       },
     },
   };
