@@ -1,6 +1,11 @@
 # guess_what
 
-Front end code for predict 2 win app
+    Old vue project just tidied up so that it actually works.
+    ToDos:
+        Move game logic out of Vue components
+        Maybe keep track of score? (Means not forcing a page refresh for new game)
+        Currently you can guess words that don't exist
+        Use a dictionary api rather than the array of words
 
 ## Project setup
 
