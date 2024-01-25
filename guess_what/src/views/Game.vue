@@ -1,11 +1,11 @@
 <template>
   <div class="bg-gray-800 w-screen h-screen">
-    <TopNav />
-    <CompletedModal v-show="gameOver" />
+    <top-nav />
+    <completed-modal v-show="gameOver" />
     <div class="h-1/2">
-      <Board :guesses="guesses" :results="results" />
+      <board :guesses="guesses" :results="results" />
     </div>
-    <Keyboard @letterGuessed="handleGuess" :guessedLetters="guessedLetters" />
+    <keyboard @letterGuessed="handleGuess" :guessedLetters="guessedLetters" />
   </div>
 </template>
 
